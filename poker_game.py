@@ -16,4 +16,4 @@ baralho = mao(52)
 for k,i in enumerate(numeros):
 	for j in naipes:
 		baralho.cartas[k] = Carta(i,j)
-mostrar.baralho()
+baralho.mostrar()
