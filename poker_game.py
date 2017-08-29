@@ -2,8 +2,8 @@ naipes=['ouros', 'paus','copas','espadas']
 numeros = ['As','2','3','4','5','6','7','8','9','10','J','Q','K']
 class Carta:
 	def __init__(self, a, b):
-		self.numero = a		
-		self.naipe = b
+		self.numero = numeros[a]		
+		self.naipe = naipes[b]
 
 class Mao:
 	def __init__(self,a):
