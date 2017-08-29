@@ -6,9 +6,9 @@ class Carta:
 		self.naipe = b
 
 class Mao:
-	cartas = [0.0 for i in range(51)]
 	def __init__(self,a):
-		numero_de_cartas = a	
+		numero_de_cartas = a
+	cartas = [0.0 for i in range(numero_de_cartas-1)]
 	def mostrar():
 		for i in self.cartas:
 			print i.numero+'de'+ i.naipe
